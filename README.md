@@ -1,19 +1,19 @@
 # Welcome to the Northfield Apps Community
 
-This is the central place for feedback, bug reports, and feature requests for all Northfield Apps apps.
+This is the central place for feedback, bug reports, and feature requests for all our apps.
 
 ## Our Apps
 
 ### 🎵 Formerly Free
 
-- [Website](https://northfieldapps.com/products/formerly-free)
-- [Report a Bug](https://github.com/northfieldapps/community/issues/new?template=bug-report.yaml)
+- [🔗](https://northfieldapps.com/products/formerly-free)
+
 
 ### ✅ Vault Todo
 A secure and powerful task management app.
 
-- [Website](https://northfieldapps.com/products/vault-todo)
-- [Report a Bug](https://github.com/northfieldapps/community/issues/new?template=bug-report.yaml)
+- [🔗](https://northfieldapps.com/products/vault-todo)
+
 
 ## How to Use This Repository
 
@@ -21,8 +21,7 @@ This repository is dedicated to community interaction. You can:
 
 - **Report Bugs**: Found an issue? [Create a bug report](https://github.com/northfieldapps/community/issues/new?template=bug-report.yaml)
 - **Request Features**: Have an idea? [Submit a feature request](https://github.com/northfieldapps/community/issues/new?template=feature-request.yaml)
-- **Ask Questions**: Need help? Open a discussion or issue
-- **Share Feedback**: Let us know what you think!
+- **Ask Questions**: Need help? [Ask a question]([url](https://github.com/northfieldapps/community/issues/new?template=question.yaml))
 
 ## 🔒 Privacy Disclaimer
 
