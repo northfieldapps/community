@@ -1,4 +1,4 @@
-# Welcome to the Northfield Apps Community Hub
+# Welcome to the Northfield Apps Community
 
 This is the central place for feedback, bug reports, and feature requests for all Northfield Apps apps.
 
