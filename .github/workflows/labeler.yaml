@@ -6,10 +6,13 @@ on:
 jobs:
   label_product:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
     steps:
       - name: Label based on app selection
-        uses: github/issue-labeler@v3
+        uses: github/issue-labeler@v3.4
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: .github/labeler-config.yaml
-          enable-version-check: false
+          enable-versioned-regex: false
