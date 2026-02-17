@@ -1,0 +1,42 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for one of our apps
+title: "[Feature]: "
+labels: ["type:enhancement", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please fill out the form below.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app is this for?
+      description: Select the Northfield app for this feature request.
+      options:
+        - "Formerly Free"
+        - "Vault Todo"
+        - "Other / General"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature you'd like to see.
+      placeholder: What would you like to add or improve?
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would this feature be used? What problem does it solve?
+      placeholder: Explain the scenario where this feature would be helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or features?
+      placeholder: Optional - describe any workarounds or alternatives you've thought about.

@@ -10,9 +10,11 @@ jobs:
       issues: write
       contents: read
     steps:
-      - name: Label based on app selection
+      - name: Label based on app selection and type
         uses: github/issue-labeler@v3.4
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: .github/labeler-config.yaml
           enable-versioned-regex: false
+          include-title: 1
+          include-body: 1

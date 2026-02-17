@@ -1,0 +1,42 @@
+name: ❓ Question
+description: Ask a question about our apps or get help
+title: "[Question]: "
+labels: ["type:question", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're here to help! Please fill out the form below.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app is this about?
+      description: Select the Northfield app (optional).
+      options:
+        - "Formerly Free"
+        - "Vault Todo"
+        - "Other / General"
+        - "Not app-specific"
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      placeholder: e.g., v1.2.3 (optional)
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+      placeholder: Ask your question here...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might help us answer your question.
+      placeholder: Optional - provide any relevant details or screenshots.

@@ -1,6 +1,16 @@
+# App labels based on dropdown selection
 "app:formerly-free":
   - "Formerly Free"
 "app:vault-todo":
   - "Vault Todo"
 "app:general":
   - "Other / General"
+  - "Not app-specific"
+
+# Type labels based on issue template
+"bug":
+  - "[Bug]:"
+"enhancement":
+  - "[Feature]:"
+"question":
+  - "[Question]:"
