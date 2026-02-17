@@ -1,0 +1,15 @@
+name: Issue Labeler
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label_product:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label based on app selection
+        uses: github/issue-labeler@v3
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          configuration-path: .github/labeler-config.yaml
+          enable-version-check: false
