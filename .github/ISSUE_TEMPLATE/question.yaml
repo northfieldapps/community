@@ -1,7 +1,7 @@
 name: ❓ Question
 description: Ask a question about our apps or get help
 title: "[Question]: "
-labels: ["type:question", "status:triage"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:
