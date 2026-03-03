@@ -15,6 +15,7 @@ body:
       options:
         - "Formerly Free"
         - "Vault Todo"
+        - "Diagram Lens"
         - "Other / General"
     validations:
       required: true
